@@ -5,11 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service s3-deploy"
   },
   "dependencies": {
+    "aws-amplify": "^1.1.28",
+    "aws-amplify-vue": "^0.2.11",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-cli-plugin-s3-deploy": "^3.0.0",
+    "vue-resource": "^1.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
