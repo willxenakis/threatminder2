@@ -111,7 +111,7 @@ export default {
       this.showAddAccount = true
     },
     search: function() {
-      let link = "https://cors-anywhere.herokuapp.com/https://www." + this.chosenSite + ".com/" + this.urlInput
+      let link = "https://www." + this.chosenSite + ".com/" + this.urlInput
       console.log(link)
 
       this.$http.get(link).then(function(response){
